@@ -19,8 +19,8 @@ end
 def get_japanese_emoticon(path, emoticon)
   library = load_library(path)
 
-  if result['get_emoticon'].has_key?(emoticon)
-    return result['get_emoticon'][emoticon]
+  if library['get_emoticon'].has_key?(emoticon)
+    return library['get_emoticon'][emoticon]
   else
     puts "Invalid input!"
   end
