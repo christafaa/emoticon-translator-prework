@@ -19,7 +19,8 @@ end
 def get_japanese_emoticon(path, emoticon)
   library = load_library(path)
 
-  if result['get_emoticon'].has_key?
+  if result['get_emoticon'].has_key?(emoticon)
+    return 
 
 end
 
