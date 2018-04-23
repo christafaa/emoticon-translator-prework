@@ -5,7 +5,8 @@ def load_library(path)
   result = {}
 
   emoticons.each do |meaning, texts|
-    
+    western = texts[0]
+    japanese = texts[1]
 end
 
 def get_japanese_emoticon
