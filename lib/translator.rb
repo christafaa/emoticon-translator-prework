@@ -8,6 +8,7 @@ def load_library(path)
     western = texts[0]
     japanese = texts[1]
     p western
+  end
 end
 
 def get_japanese_emoticon
