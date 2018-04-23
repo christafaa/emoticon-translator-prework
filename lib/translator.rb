@@ -21,6 +21,9 @@ def get_japanese_emoticon(path, emoticon)
 
   if result['get_emoticon'].has_key?(emoticon)
     return result['get_emoticon'][emoticon]
+  else
+    puts "Invalid input!"
+  end
 
 end
 
