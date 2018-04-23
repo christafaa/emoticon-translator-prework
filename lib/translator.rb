@@ -1,4 +1,5 @@
 require "yaml"
+gov = YAML.load_file('government.yml')
 
 def load_library
   # code goes here
