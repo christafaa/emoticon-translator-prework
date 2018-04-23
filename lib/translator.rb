@@ -11,7 +11,7 @@ def load_library(path)
     english = texts[0]
     japanese = texts[1]
     result['get_meaning'][japanese] = meaning
-    result['get_emoticon'][english]
+    result['get_emoticon'][english] = japanese
   end
 end
 
