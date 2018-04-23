@@ -8,10 +8,10 @@ def load_library(path)
   }
 
   emoticons.each do |meaning, texts|
-    western = texts[0]
+    english = texts[0]
     japanese = texts[1]
     result['get_meaning'][japanese] = meaning
-    result['get_emoticon'][]
+    result['get_emoticon'][english]
   end
 end
 
