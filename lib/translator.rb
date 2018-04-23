@@ -13,6 +13,7 @@ def load_library(path)
     result['get_meaning'][japanese] = meaning
     result['get_emoticon'][english] = japanese
   end
+  result
 end
 
 def get_japanese_emoticon
