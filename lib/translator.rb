@@ -4,7 +4,8 @@ def load_library(path)
   emoticons = YAML.load_file(path)
   result = {}
 
-  p emoticons
+  emoticons.each do |meaning, texts|
+    
 end
 
 def get_japanese_emoticon
